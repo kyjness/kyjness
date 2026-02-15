@@ -36,6 +36,11 @@ MBTI는 **ISTP**로, 원리와 구조를 이해하고 실용적으로 적용하�
 
 <br />
 
+## 🔗 Link
+- [Notion](https://www.notion.so/Notion-255490c721e88093bdb5cc91bfda64ca)
+
+<br />
+
 ## 🛠 Skills (Often Used)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
