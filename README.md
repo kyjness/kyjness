@@ -38,7 +38,8 @@ MBTI는 **ISTP**로, 원리와 구조를 이해하고 실용적으로 적용하�
 <br />
 
 ## 📌 대표 프로젝트
-- **[PuppyTalk](https://github.com/kyjness/2-kyjness-community-fe)** – 강아지 커뮤니티 풀스택 (Vanilla JS SPA + FastAPI, 게시글·댓글·좋아요·회원·세션)
+- **PuppyTalk** – 강아지 커뮤니티 풀스택 (Vanilla JS SPA + FastAPI, 게시글·댓글·좋아요·회원·세션)  
+  [백엔드](https://github.com/kyjness/2-kyjness-community-be) · [프론트엔드](https://github.com/kyjness/2-kyjness-community-fe)
 
 <br />
 
