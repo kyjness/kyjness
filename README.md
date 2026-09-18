@@ -34,19 +34,23 @@
 
 ## 🚀 Projects
 
-### 📄 DocSuri — 논문 트렌드 분석 AI 서비스
-사용자가 원하는 연구 분야의 최신 논문을 **자동 수집·분석·요약**하는 AI Agent 기반 웹 서비스입니다. 모바일 중심으로 설계했습니다.
+###📄 DocSuri — 논문 트렌드 분석 AI 서비스
 
-- **AI Agent Architecture**: LangGraph 기반 에이전트로 논문 수집부터 분석·요약까지 파이프라인 자동화
-- **Stack**: FastAPI · LangGraph · PostgreSQL · APScheduler · AWS Bedrock
-- 🔗 [Repository](https://github.com/80-hours-a-week/DocSuri)
+관심 있는 연구 분야의 최신 논문을 자동 수집하고, AI Agent를 통해 분석·요약하는 연구 지원 웹 서비스입니다. 팀 프로젝트로 시작한 뒤 개인 개발을 통해 기능과 아키텍처를 확장했습니다.
 
-### 🐶 PuppyTalk — 강아지 커뮤니티 풀스택 서비스
-게시글·댓글·좋아요·회원·세션 기능을 갖춘 커뮤니티 서비스입니다. 초기 Vanilla JS SPA에서 **React로 마이그레이션**하며 구조를 개선했습니다.
+AI Agent Architecture: LangGraph 기반 Agent를 활용해 논문 수집·검색·분석·요약 과정을 자동화
+Backend & AI: FastAPI · LangGraph · PostgreSQL · AWS Bedrock · APScheduler
+개인 개발 확장: 논문 데이터 수집·파싱·검색 파이프라인 및 Evidence Agent 등 기능 확장
+🔗 Team Repository · Personal Development · Wiki
 
-- **Full-Stack**: React 프론트엔드 + FastAPI 백엔드
-- **주요 기능**: 회원/세션 인증, 게시글·댓글·좋아요 CRUD
-- 🔗 [Backend](https://github.com/kyjness/2-kyjness-community-be) · [Frontend](https://github.com/kyjness/2-kyjness-community-fe)
+###🐶 PuppyTalk — 강아지 커뮤니티 풀스택 서비스
+
+게시글·댓글·좋아요·회원·세션 인증 기능을 제공하는 강아지 커뮤니티 풀스택 웹 서비스입니다. Vanilla JS SPA로 시작해 React 기반 프론트엔드로 마이그레이션하며 서비스 구조를 개선했습니다.
+
+Full-Stack: React · FastAPI · MySQL
+주요 기능: 회원/세션 인증 · 게시글/댓글 CRUD · 좋아요 · 이미지 업로드
+Infrastructure: Docker · Nginx · AWS 기반 배포 환경 구성
+🔗 Backend · Frontend · Infrastructure
 
 <br />
 
@@ -61,7 +65,7 @@
 
 ## 🏆 자격증 · 어학
 - **자격증**: ADSP, SQLD, 컴퓨터활용능력 2급
-- **어학**: OPIc IH, TOEIC 835
+- **어학**: TOEIC 835
 
 <br />
 
