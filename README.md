@@ -34,23 +34,28 @@
 
 ## 🚀 Projects
 
-### 📄 DocSuri — 논문 트렌드 분석 AI 서비스
+### 📄 DocSuri — 논문 연구 보조 플랫폼
 
-관심 있는 연구 분야의 최신 논문을 자동 수집하고, AI Agent를 통해 분석·요약하는 연구 지원 웹 서비스입니다. 팀 프로젝트로 시작한 뒤 개인 개발을 통해 기능과 아키텍처를 확장했습니다.
+대학원생과 연구자를 위한 논문 연구 보조 서비스로, 관심 분야의 논문을 수집·검색하고 요약·번역 및 문헌 탐색을 지원합니다. 4인 팀 프로젝트로 시작한 뒤 개인 개발을 이어가며 기능과 아키텍처를 확장했습니다.
 
-AI Agent Architecture: LangGraph 기반 Agent를 활용해 논문 수집·검색·분석·요약 과정을 자동화
-Backend & AI: FastAPI · LangGraph · PostgreSQL · AWS Bedrock · APScheduler
-개인 개발 확장: 논문 데이터 수집·파싱·검색 파이프라인 및 Evidence Agent 등 기능 확장
-🔗 Team Repository · Personal Development · Wiki
+- **AI Agent**: LangGraph 기반 문헌 탐색 에이전트와 차별화 에이전트를 설계하여 논문 탐색 및 분석 과정 자동화
+- **논문 데이터 파이프라인**: arXiv · Semantic Scholar · OpenAlex 기반 논문 수집, 중복 제거 및 GROBID 기반 논문 본문 파싱
+- **검색 시스템**: 논문 본문 청킹·임베딩 및 BM25와 벡터 검색을 결합한 Hybrid Search 구현
+- **서비스 아키텍처**: AWS 환경에서 기능별 모듈을 분리한 Modular Monolith 구조로 설계
+- **주요 담당**: 논문 검색 및 요약·번역 기능 개발, 에이전트 도입을 고려한 논문 수집·파싱 및 검색 구조 설계
+- **Stack**: FastAPI · PostgreSQL · OpenSearch · Redis · LangGraph · AWS Bedrock
+- **Repositories**: [Team](https://github.com/80-hours-a-week/DocSuri) · [Personal Development](https://github.com/kyjness/DocSuri) · [Wiki](https://github.com/80-hours-a-week/DocSuri-wiki)
 
 ### 🐶 PuppyTalk — 강아지 커뮤니티 풀스택 서비스
 
-게시글·댓글·좋아요·회원·세션 인증 기능을 제공하는 강아지 커뮤니티 풀스택 웹 서비스입니다. Vanilla JS SPA로 시작해 React 기반 프론트엔드로 마이그레이션하며 서비스 구조를 개선했습니다.
+회원·게시글·댓글·좋아요 등을 제공하는 강아지 커뮤니티 웹 서비스입니다. Vanilla JS 기반 SPA로 개발한 뒤 React로 프론트엔드를 마이그레이션하고, 백엔드 API와 배포 인프라까지 구축했습니다.
 
-Full-Stack: React · FastAPI · MySQL
-주요 기능: 회원/세션 인증 · 게시글/댓글 CRUD · 좋아요 · 이미지 업로드
-Infrastructure: Docker · Nginx · AWS 기반 배포 환경 구성
-🔗 Backend · Frontend · Infrastructure
+- **Frontend**: Vanilla JS SPA → React 마이그레이션 및 컴포넌트 기반 구조 개선
+- **Backend**: FastAPI · SQLAlchemy · MySQL 기반 REST API 개발
+- **주요 기능**: 회원가입/로그인 · 세션 인증 · 게시글/댓글 CRUD · 좋아요 · 조회수 · 이미지 첨부
+- **인증**: Cookie 기반 세션 인증 및 MySQL 세션 관리
+- **Infrastructure**: Docker Compose · Nginx · AWS 기반 배포 환경 구성
+- **Repositories**: [Backend](https://github.com/kyjness/2-kyjness-community-be) · [Frontend](https://github.com/kyjness/2-kyjness-community-fe) · [Infrastructure](https://github.com/kyjness/puppytalk-infra)
 
 <br />
 
