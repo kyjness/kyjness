@@ -34,7 +34,7 @@
 
 ## 🚀 Projects
 
-###📄 DocSuri — 논문 트렌드 분석 AI 서비스
+### 📄 DocSuri — 논문 트렌드 분석 AI 서비스
 
 관심 있는 연구 분야의 최신 논문을 자동 수집하고, AI Agent를 통해 분석·요약하는 연구 지원 웹 서비스입니다. 팀 프로젝트로 시작한 뒤 개인 개발을 통해 기능과 아키텍처를 확장했습니다.
 
@@ -43,7 +43,7 @@ Backend & AI: FastAPI · LangGraph · PostgreSQL · AWS Bedrock · APScheduler
 개인 개발 확장: 논문 데이터 수집·파싱·검색 파이프라인 및 Evidence Agent 등 기능 확장
 🔗 Team Repository · Personal Development · Wiki
 
-###🐶 PuppyTalk — 강아지 커뮤니티 풀스택 서비스
+### 🐶 PuppyTalk — 강아지 커뮤니티 풀스택 서비스
 
 게시글·댓글·좋아요·회원·세션 인증 기능을 제공하는 강아지 커뮤니티 풀스택 웹 서비스입니다. Vanilla JS SPA로 시작해 React 기반 프론트엔드로 마이그레이션하며 서비스 구조를 개선했습니다.
 
